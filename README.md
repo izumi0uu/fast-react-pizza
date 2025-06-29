@@ -1,4 +1,4 @@
-# 代码阅读推荐顺序
+# Fast React Pizza - 代码阅读推荐顺序
 
 ## 📚 总体阅读路线图
 
@@ -80,11 +80,21 @@
 
 ---
 
-# React + Vite
+## 项目简介
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+这是一个现代化的React披萨订购应用，使用Vite构建工具和现代React生态系统。
 
-Currently, two official plugins are available:
+### 技术栈
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **前端框架**: React 18 配合 Vite 构建工具
+- **状态管理**: Redux Toolkit
+- **路由管理**: React Router v6
+- **样式方案**: Tailwind CSS
+- **开发工具**: ESLint + Prettier
+
+### 快速开始
+
+```bash
+npm install
+npm run dev
+```
